@@ -1,0 +1,54 @@
+/*Up*/
+.up{
+    position: fixed;
+    bottom: 0;
+    right:0;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.up button {
+    background:#51555c;
+    padding: 9px 9px;
+    border: 1px solid transparent;
+}
+.up i {
+    color:#eeeeee;
+    font-size: 2rem;
+}
+
+.up button:hover {
+    
+    padding: 11px 11px;
+    
+}
+
+/*footer*/
+
+
+footer{
+    margin-top: 200px;
+    width: 100%;
+    background:#1a1c20 none repeat center top ;
+}
+footer  {
+    display: flex;
+    padding: 10px 10px;
+    justify-content: space-between;
+}
+footer ul {
+    display: flex;
+
+}
+footer ul li {
+    list-style: none;
+}
+footer p,li a{
+    color: #eeeeee;
+    margin: 0 5px;
+    text-decoration: none;
+}
+
+footer li a:hover {
+    text-decoration: underline;
+}

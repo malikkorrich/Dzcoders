@@ -1,0 +1,38 @@
+.title {
+    display: flex;
+    justify-content: center;
+    color: #050607;
+    font-size: 2.1rem;
+    font-weight: 800;
+    margin-top: 100px;
+    margin-bottom: 30px;
+  }
+  .content {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+  }
+  
+  /*table*/
+
+  .team {
+    box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 15px;
+    margin-top: 50px;
+  }
+
+  .info h2 {
+    color: #009879;
+  }
+
+  .info p,h2 {
+    margin: 10px 0;
+  }

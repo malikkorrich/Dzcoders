@@ -1,0 +1,24 @@
+<section id="cards">
+    <h2 class="title">Login</h2>
+  
+    <div class="content constrainf">
+  
+      <div class="signupForm">
+        <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+          <div class="input-field">
+          <i class="fa-solid fa-user"></i> <input type="text" formControlName="user"  placeholder="Username" required/>
+          <p *ngIf="user?.touched && user?.hasError('required')">Username is required</p>
+        </div>
+        <div class="input-field">
+          <i class="fa-solid fa-lock"></i><input type="text" formControlName="password"  placeholder="Password" required/>
+          <p *ngIf="password?.touched && password?.hasError('required')">Password is required</p>
+        </div>
+         <div class="submit-button">
+          <button type="submit" [disabled]="loginForm.invalid">Login</button>
+          </div>
+        </form>
+      </div>
+  
+    </div>
+  </section>
+  

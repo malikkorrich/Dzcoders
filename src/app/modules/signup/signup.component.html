@@ -1,0 +1,38 @@
+<section id="cards">
+  <h2 class="title">Sign up</h2>
+
+  <div class="content constrainf">
+    <div class="signupForm">
+      <form [formGroup]="registerForm" (ngSubmit)="getForm()">
+        <div class="input-field">
+          <i class="fa-solid fa-user"></i><input type="text" formControlName="name"  placeholder="Full name"  required/>
+          <p *ngIf="name?.hasError('required') && name?.touched">Name is required</p>
+          <p *ngIf="name?.hasError('pattern')  && name?.touched">Name only contain charachters</p>
+        </div>
+     
+        <div class="input-field">
+        <i class="fa-solid fa-user"></i> <input type="text" formControlName="user"  placeholder="Username" required/>
+        <p *ngIf="user?.hasError('required') && user?.touched">Email is required</p>
+        <p *ngIf="user?.touched && user?.hasError('minlength')">Username should have minimum 6 characters</p>
+        <p></p>
+      </div>
+      <div class="input-field">
+        <i class="fa-solid fa-envelope"></i><input type="email" formControlName="email"  placeholder="Email" required/>
+        <p *ngIf="email?.hasError('required') && email?.touched">Email is required</p>
+        <p *ngIf="email?.touched && email?.hasError('email')">Enter a valid email address</p>
+      </div>
+      <div class="input-field">
+        <i class="fa-solid fa-lock"></i><input type="password" formControlName="password" placeholder="Password" required/>
+        <p *ngIf="password?.hasError('required') && password?.touched">Password is required</p>
+        <p *ngIf="password?.touched && password?.hasError('minlength')">Password should have minimum 6 characters, at least 1 uppercase letter, 1 lowercase letter and 1 number</p>
+      </div>
+      <div class="upload-field">
+        <i class="fa-solid fa-image"></i><input type="file" formControlName="avatar"  />
+       </div>
+       <div class="submit-button">
+        <button type="submit">Sign up</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</section>

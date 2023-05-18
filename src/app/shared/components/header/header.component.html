@@ -1,0 +1,35 @@
+<header appHeadercolor>
+       
+    <div class="logo">
+        <img src="./assets/images/logo.png" alt="404">
+    </div>
+<div class="nav">
+    <ul>
+        <li><a href="">Home</a></li>
+        <li *ngIf="!loggedIn"><a href="/signup">Signup</a></li>
+        <li *ngIf="!loggedIn"><a href="/login">Login</a></li>
+        <li *ngIf="loggedIn"><a href="/dashboard/profile">Profile</a></li>
+        <li><a href="contact">Contact</a></li>
+        <li><a href="about">About</a></li>
+        <li><a href="team">Team</a></li>
+    </ul>
+</div>
+
+<div class="social">
+    <a href=""><i class="fa-brands fa-twitter"></i></a> 
+   <a href=""> <i class="fa-brands fa-github"></i></a>
+   <a href=""><i class="fa-brands fa-linkedin"></i></a> 
+</div>
+
+
+</header>
+
+<div class="banner">
+    <div class="def">
+        <p>Dz Coders Community</p>
+        <span>is a digital agency that designs and builds web and mobile & desktop applications</span>
+        <a (click)="goProfile()">Get Started</a>
+    </div>
+    <img src="./././assets/images/banner.svg"  width="500px" alt="">
+</div>
+

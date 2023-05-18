@@ -1,0 +1,8 @@
+{
+    "username":"malikd4",
+    "password":"123456",
+    "email":"malik.korrich@gmail.com",
+    "admin":true,
+    "Roles":["Add","Edit","Delete"]
+
+}

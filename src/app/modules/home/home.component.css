@@ -1,0 +1,205 @@
+#main{
+    width: 100%;
+    height: 100vh;
+    background-color: #0a0d0e;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#main div h2{
+    color: #fff;
+    font-size: 3rem;
+    font-weight: 700;
+} 
+#main div p{
+    color: #fff;
+    margin-top: 20px;
+}
+
+#main div button{
+    margin-top: 15px;
+    color: #0a0d0e;
+    padding: 20px;
+    font-size: 1.2rem;
+    border-radius: 10px 10px 10px 10px;
+    transition: 0.4s;
+}
+
+#main div button:hover{
+background-color: #92E3A9;
+color: #050607;
+}
+
+.banner{
+    width: 500px;
+    height: 500px;
+}
+
+.socialmedia{
+    margin-top: 20px;
+}
+.socialmedia a{
+    color: #fff;
+    font-size:3rem;
+    font-weight: 700;
+    margin: 0 10px;
+}
+
+/*cards*/
+
+.title {
+    display: flex;
+    justify-content: center;
+    color:#050607;
+    font-size: 2.1rem;
+    font-weight: 800;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+.content{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 21.25rem;
+    background-color: #fff;
+
+    box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    transition: 0.7s ease;
+}
+
+.card:hover{
+    transform: scale(1.1);
+}
+.card h3 {
+    margin: 20px;
+    font-size: 1rem;
+}
+.card p {
+    margin: 20px;
+    text-align: center;
+    color: #050607;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+ 
+ 
+.icon img {
+ height: 100px;
+ width: 100px;
+ 
+
+}
+
+/*Features*/
+.feature{
+    width: 10.25rem;
+    background-color: #fff;
+    box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    transition: 0.7s ease;
+}
+
+.feature h3 {
+    margin: 20px;
+    font-size: 1rem;
+}
+
+
+/*contact*/
+
+.subtitle {
+    display: flex;
+    justify-content: center;
+    color:#fff;
+    font-size: 1rem;
+    margin-bottom: 30px;
+}
+#contact {
+    background-color: #ffffff;
+}
+
+#contact .title {
+    color:rgb(0, 0, 0);
+}
+.ccontent {
+display: flex;    
+}
+ 
+.cinfo {
+    width: 50%;
+}
+.cinfo p{
+    color:rgb(0, 0, 0);
+    font-size: 1.rem;
+    margin:10px
+}
+
+.cinfo i{
+    color: #92E3A9;
+    font-size: 2rem;
+    font-weight: 700;
+    margin:10px
+}
+
+
+.cform{
+    width: 50%;
+   
+}
+
+.cform button,input {
+
+height: 40px;
+margin: 10px;
+padding: 4px;
+}
+
+.cform input::placeholder{
+    font-size: 0.8rem;
+    font-weight: 500;
+
+}
+
+.cform textarea{
+    width: 100%;
+    margin: 10px;
+    resize: vertical;
+    padding: 4px;
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: #0a0d0e;
+}
+
+.cform button{
+    background-color:#fff;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color:#0a0d0e;
+    transition: 0.7s ease;
+    width: 200px;
+}
+
+.cform button:hover{
+    background-color: #92E3A9;
+    color: #050607;
+}
