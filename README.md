@@ -2,9 +2,12 @@ DzCOders "Frontend" is a digital agency that designs and builds web and mobile &
 https://malikkorrich.github.io/Dzcoders/
 
 Home Page
-![1](https://github.com/malikkorrich/Dzcoders/assets/61884452/31b0e374-8647-4293-9632-d9ed708fd4ef)
+![1](https://github.com/malikkorrich/Dzcoders/assets/61884452/e5b7440a-1e73-48d1-a77d-3bc5dddfb994)
 
-![1](https://github.com/malikkorrich/Dzcoders/assets/61884452/0b929ff7-4d0c-4bcf-b5a9-5aa54c23c712)
+
+![1](https://github.com/malikkorrich/Dzcoders/assets/61884452/fdeaf9f4-b0f6-433c-a737-48260359fbb6)
+
+
 
 ![1](https://github.com/malikkorrich/Dzcoders/assets/61884452/e272e121-80c3-4a71-807c-ac145fc0d0ea)
 
@@ -12,6 +15,8 @@ Home Page
 
 Signup Page
 ![1](https://github.com/malikkorrich/Dzcoders/assets/61884452/6b610e1c-324e-451e-bb43-de4b3d5f1bc5)
+
+
 
 ![1](https://github.com/malikkorrich/Dzcoders/assets/61884452/373cae47-587f-4673-af13-90b925312fc9)
 
